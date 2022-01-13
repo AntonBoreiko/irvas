@@ -7,7 +7,6 @@ const changeModalState = (state) => {
       windowType = document.querySelectorAll('#view_type'),
       windowProfile = document.querySelectorAll('.checkbox')
 
-
    checkNumInputs('#width')
    checkNumInputs('#height')
 
@@ -34,10 +33,7 @@ const changeModalState = (state) => {
                case 'SELECT':
                   state[prop] = item.value
                   break
-
             }
-            console.log(state)
-
          })
       })
    }
@@ -48,6 +44,5 @@ const changeModalState = (state) => {
    bindActionToElems('change', windowType, 'type')
    bindActionToElems('change', windowProfile, 'profile')
 }
-
 
 export default changeModalState

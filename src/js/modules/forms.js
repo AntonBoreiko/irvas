@@ -51,12 +51,6 @@ const forms = (state) => {
             .catch(() => statusMessage.textContent = message.failure)
             .finally(() => {
                clearInputs()
-               // setTimeout(() => {
-               //    statusMessage.remove()
-               //    document.querySelectorAll('popup').forEach(elem => {
-               //       elem.style.display = 'none'
-               //    })
-               // }, 5000)
             })
 
 
