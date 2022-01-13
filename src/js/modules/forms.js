@@ -27,7 +27,6 @@ const forms = (state) => {
       })
    }
 
-
    form.forEach(item => {
       item.addEventListener('submit', (e) => {
          e.preventDefault()
@@ -52,8 +51,6 @@ const forms = (state) => {
             .finally(() => {
                clearInputs()
             })
-
-
       })
    })
 }
