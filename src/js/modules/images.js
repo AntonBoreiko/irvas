@@ -22,8 +22,8 @@ const images = () => {
          imgPopup.style.display = 'flex'
          const path = target.parentNode.getAttribute('href')
          bigImage.setAttribute('src', path)
-         bigImage.style.width = '600px'
-         bigImage.style.height = '500px'
+         bigImage.style.width = '85%'
+         bigImage.style.height = '70%'
          document.body.style.overflow = 'hidden'
          document.body.style.marginRight = `${scroll}px`
       }

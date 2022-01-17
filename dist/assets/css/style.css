@@ -723,9 +723,9 @@ textarea:focus {
   background-color: white;
   color: black;
   border-radius: 10px;
-  text-align: center;
-  width: 360px;
+  width: 95%;
   height: 150px;
+  text-align: center;
 }
 
 .container1 {
